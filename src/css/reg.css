@@ -1,0 +1,339 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.reg_div1{
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+  }
+  .reg_div2{
+    width: 28%;
+    height: 99vh;
+    flex-direction: column;
+    display: inline-flex;
+
+  }
+  .reg_div3{
+    width: 72%;
+    height: 99vh;
+    flex-direction: column;
+    display: inline-flex;
+  }
+  .reg_div21{
+    width: 95%;
+    height: 10vh;
+    display: inline-flex;
+    margin-left: 25px;
+
+  }
+  .reg_div22{
+    width: 100%;
+    height: 45vh;
+    background-color: #FAFAFA;
+    display: inline-flex;
+
+  }
+  .reg_div31{
+    width: 100%;
+    height: 10vh;
+    display: inline-flex;
+  }
+  .reg_div311{
+    width: 60%;
+    height: 10vh;
+    background-color: #ffffff;
+
+  }
+  #reg_div311_img1{
+    display: none;
+  }
+  .reg_div312{
+    width: 40%;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .reg_div32{
+    width: 100%;
+    height: 89vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reg_div321{
+    width:500px;
+    height: 80vh;
+    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+  }
+  #royhat_btn{
+    width: 170px;
+    height: 6vh;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 620;
+    color: #535862;
+  border-radius: 7px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.5) 
+  }
+  #kirish_btn{
+    width: 85px;
+    height: 6vh;
+    background-color: #0E938F;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    border: none;
+    font-weight: 620;
+  }
+  .language{
+    width: 100px;
+    height: 6vh;
+    background-color: #F8F8F8;
+    border-radius: 7px;
+    border-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5) 
+  }
+  #language_ru{
+    width: 48%;
+    height: 6vh;
+    border-radius: 7px;
+    background-color: #ffffffd8;
+    margin-left: 2px;
+    font-weight: 620;
+    border: none;
+    color: #535862;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5) 
+  
+  }
+   #language_uz{
+    border-radius: 7px;
+    width: 48%;
+    height: 6vh;
+    font-weight: 620;
+    color: #535862;
+    border: none;
+    background-color: #ffffffd8;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5) 
+  }
+  .reg_div321_img1{
+  position: absolute;
+  font-size: 100px;
+  }
+  #reg_div321_h1{
+    font-size: 30px;
+  }
+  #reg_div321_h2{
+    margin-top: 10px;
+  }
+  .reg_img_div1{
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* ////////////////////////////////////////////////////////// */
+  .sello-steps {
+    max-width: 420px; /* oldingi 360 edi */
+    margin: 30px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px; /* oldingi 14 edi */
+    color: #777;
+  }
+  .step {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding: 16px 0 16px 56px; /* chapdan joy kengaytirildi */
+  }
+  .step:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 36px; /* oldingi 32 edi */
+    top: 48px;
+    bottom: 0;
+    width: 2px;
+    background: #e5e7eb;
+  }
+  .step .icon {
+    position: absolute;
+    left: 16px;
+    width: 36px; /* oldingi 32 edi */
+    height: 36px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    background-size: 60px; /* icon ham kattaroq */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+  }
+  .step .text {
+    margin-left: 16px; /* sal ko‘proq joy */
+  }
+  .step .title {
+    font-weight: 600;
+    color: inherit;
+    font-size: 15.5px;
+  }
+  .step .desc {
+    margin-top: 6px;
+    font-size: 14px; /* oldingi 13 edi */
+    line-height: 1.5;
+    color: inherit;
+  }
+  .step.active {
+    color: #111;
+  }
+  .icon.owner { background-image: url('	https://partners.sello.uz/_nuxt/img/user-icon.5dcbcb8.svg'); }
+  .icon.password { background-image: url('https://partners.sello.uz/_nuxt/img/key-icon.722783a.svg'); }
+  .icon.company { background-image: url('https://partners.sello.uz/_nuxt/img/company-icon.a7df01f.svg'); }
+  
+  #reg_inp1{
+    color: black;
+    width: 350px;
+    height: 6vh;
+    background-color: white;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+    padding-left: 12px;
+  }
+#reg_h11111111{
+  margin-top:17px ;
+}
+#davom_etish{
+  width: 350px;
+  height: 7vh;
+  background-color: #F5F5F5;
+  border: 2px solid #B6B6B6;
+  color: #B8B8B8;
+  margin-top: 20px;
+  font-size: 17px ;
+  border-radius: 7px;
+}
+.reg_text_div6{
+  width: 350px;height: 5vh;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+#Avtorizatsiya{
+  text-decoration: none;
+  color: #0E938F;
+  margin-left: 10px;
+  margin-top: -9px;
+  
+}
+#h9999999999{
+  font-size: 15px;
+  color: #535862
+}
+#reg_div311_i1{
+  font-size: 30px;
+}
+#reg_div311_i1{
+  display: none;
+}
+.reg_div32_none{
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  #reg_div311_i1{
+    display: block;
+  }
+  #royhat_btn{
+    display: none;
+  }
+  #kirish_btn{
+    display: none;
+  }
+  .language{
+    display: none;
+  }
+  .reg_div312{
+    width: 100%;
+    height: 10vh;
+    padding: 30px;
+    display: inline-flex;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .reg_div32_none{
+    width: 180px;
+    height: 5vh;
+    display: inline-flex;
+    align-items: center;
+  }
+  #reg_div32_none_h1{
+    margin-top: 4px;
+  }
+  #reg_div32_none_img1{
+    width: 25px;
+    height: 25px;
+    margin-left: 7px;
+  }
+  #reg_div311_i1{
+    display: block;
+  }
+  #royhat_btn{
+    display: none;
+  }
+  #kirish_btn{
+    display: none;
+  }
+  .language{
+    display: none;
+  }
+  .reg_div32{
+    width: 100%;
+    height: 89vh;
+    display: inline-flex;
+    align-items: center;
+  }
+  .reg_div2{
+    display: none;
+  }
+  .reg_div32{
+    margin-left: 70px;
+  }
+  .reg_div312{
+    width: 50%;
+    height: 10vh;
+    padding: 30px;
+    display: inline-flex;
+    justify-content: end;
+ 
+  }
+  .reg_div31{
+    width: 100vw;
+    height: 10vh;
+    display: inline-flex;
+    align-items: center;
+  }
+  .reg_div311{
+    width: 50%;
+    height: 10vh;
+
+    display: inline-flex;
+    align-items: center;
+  }
+  #reg_div311_img1{
+    margin-left: 20px;
+  }
+  #reg_div311_img1{
+    display: block;
+  }
+
+  }
